@@ -1,0 +1,9 @@
+#searchbox{
+    width: 600px;
+   margin: 0px;
+}
+#brand{
+    font-size: xx-large;
+    font-style: italic;
+    color: rgb(184, 37, 37);
+}
