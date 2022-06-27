@@ -11,7 +11,7 @@ const Productdetail = () => {
   const [product, setProduct] = useState([]);
   const [loading, setLoading] = useState(false);
   const { id } = useParams();
-
+  
   const dispatch = useDispatch();
   
   const addProduct = (product) => {
@@ -32,8 +32,7 @@ const Productdetail = () => {
   const Loading = () => {
     return (
       <>
-         <Skeleton/>
-        
+         <Skeleton/>   
       </>
     );
   };
