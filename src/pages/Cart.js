@@ -5,7 +5,7 @@ import "../style/cart.css"
 import { addCart, delCart } from "../redux/action";
 import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
-import Footer from "../components/Footer";
+
 
 const  Cart=()=> {
   const state =useSelector((state)=>state.HandelCart)
