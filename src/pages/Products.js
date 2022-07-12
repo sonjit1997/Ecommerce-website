@@ -38,7 +38,7 @@ export default function Products() {
       <>
         <div className="button d-flex justify-content-center pb-5 ">
           <button
-            className="btn btn-outline-danger me-2 p-1 "
+            className="btn me-2 p-1 "
             id="category"
             onClick={() => updateProduct("men's clothing")}
           >
@@ -50,7 +50,7 @@ export default function Products() {
             />
           </button>
           <button
-            className="btn btn-outline-danger me-2 p-1 "
+            className="btn me-2 p-1 "
             id="category"
             onClick={() => updateProduct("women's clothing")}
           >
@@ -62,7 +62,7 @@ export default function Products() {
             />
           </button>
           <button
-            className="btn btn-outline-danger me-2 p-1 "
+            className="btn me-2 p-1 "
             id="category"
             onClick={() => updateProduct("electronics")}
           >
@@ -74,7 +74,7 @@ export default function Products() {
             />
           </button>
           <button
-            className="btn btn-outline-danger me-2 p-1 "
+            className="btn me-2 p-1 "
             id="category"
             onClick={() => updateProduct("jewelery")}
           >
