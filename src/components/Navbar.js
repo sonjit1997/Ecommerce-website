@@ -21,7 +21,7 @@ function Navbar(){
       <Link className="btn  ms-2 text-warning fw-bolder"  to={"/"}>
           <i className="fa fa-home me-1"></i> Home</Link>
           <Link className="btn  ms-2 text-warning fw-bolder" to={"/allproduct"}>
-          <i class="fa fa-shopping-basket"></i> product</Link>
+          <i className="fa fa-shopping-basket"></i> product</Link>
           <Link className="btn  ms-2 text-warning fw-bolder" to={"/Login"}>
           <i className="fa fa-sign-in me-1"></i> Login</Link>
           <Link className="btn  ms-2 text-warning fw-bolder" to={"/cart"}>

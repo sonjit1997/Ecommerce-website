@@ -35,8 +35,8 @@ const  Cart=()=> {
             <p className="lead fw-bolder">
               {product.qty} X ${product.price}= ${product.qty * product.price}
             </p>
-            <button className="rounded-pill btn-success me-1" onClick={()=>increaseItem(product)}><i class="fa fa-plus" aria-hidden="true"></i></button>
-            <button className="rounded-pill btn-danger" onClick={()=>decreaseItem(product)}><i class="fa fa-minus" aria-hidden="true"></i></button>
+            <button className="rounded-pill btn-success me-1" onClick={()=>increaseItem(product)}><i className="fa fa-plus" aria-hidden="true"></i></button>
+            <button className="rounded-pill btn-danger" onClick={()=>decreaseItem(product)}><i className="fa fa-minus" aria-hidden="true"></i></button>
           </div>
         </div>
           <hr/>
@@ -52,7 +52,7 @@ const  Cart=()=> {
         <div className="container">
         <div className="col-12 mt-5">
             <h1 className="display-6 fw-bolder text-center text-upercase text-secondary">
-             YOUR CART IS EMPTY RIGHT NOW  <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>
+             YOUR CART IS EMPTY RIGHT NOW  <i className="fa fa-cart-arrow-down" aria-hidden="true"></i>
             </h1>
             <hr />
           </div>

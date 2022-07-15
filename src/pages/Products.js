@@ -79,7 +79,7 @@ export default function Products() {
             onClick={() => updateProduct("jewelery")}
           >
             <img
-              src="https://i.pinimg.com/originals/4a/01/fb/4a01fbd4f5869b24d1adc4ec9bd0ea7b.png"
+              src="https://th.bing.com/th/id/R.0c86f04b512133600b128ed19019e1a9?rik=tg7kCWWzbxcXbw&riu=http%3a%2f%2fwww.burbanktowncenter.com%2fwp-content%2fuploads%2fsites%2f130%2f2018%2f01%2fSA-FJ-for-BTC.jpg&ehk=bM0JxHMHXlDMB2WDpi8ByseUl0UwpKc7LDdaMcVg0NA%3d&risl=&pid=ImgRaw&r=0"
               alt="jewelery"
               height={"240 px"}
               width={"305x"}

@@ -58,11 +58,11 @@ const Productdetail = () => {
             <i className="fa fa-star"></i>
           </h4>
           <h3>
-            Special Price: <i class="fa fa-usd" aria-hidden="true"></i>{" "}
+            Special Price: <i className="fa fa-usd" aria-hidden="true"></i>{" "}
             {product.price} /-
           </h3>
           <p className="lead p-2">{product.description}</p>
-          <i class="fa fa-map-marker"></i>{" "}
+          <i className="fa fa-map-marker"></i>{" "}
           <input type="text" placeholder="Enter Delivery Pincode"></input>
           <button className="btn-outline-success">Chek</button>
           <div className="button mt-4">
@@ -70,12 +70,12 @@ const Productdetail = () => {
               className="btn btn-warning px-4"
               onClick={() => addProduct(product)}
             >
-              <i class="fa fa-cart-plus  me-1" aria-hidden="true"></i>
+              <i className="fa fa-cart-plus  me-1" aria-hidden="true"></i>
               ADD TO CART{" "}
             </button>
              <Link to={'/chekout'}> 
             <div className="btn btn-warning ms-2 px-4">
-            <i class="fa fa-hand-peace-o me-1" aria-hidden="true"></i>
+            <i className="fa fa-hand-peace-o me-1" aria-hidden="true"></i>
               BUY NOW
             </div>
             </Link> 
