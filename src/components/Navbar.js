@@ -3,7 +3,11 @@ import "./Navbar.css";
 import {useSelector} from 'react-redux';
 
 function Navbar(){
+
+
   const state = useSelector((state)=>state.HandelCart) 
+
+  
     return(
       <nav className="navbar navbar-expand-lg navbar-light bg-success p-1">
   <div className="container-fluid">

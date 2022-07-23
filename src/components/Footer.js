@@ -3,18 +3,18 @@ import "./footer.css"
 
 const Footer = () => {
   return (
-    <div className="card-group  ">
-    <div className="card ">
-      <div className="card-body bg-dark text-white text-center ">
+    <div className="row" id='row'>
+    <div className="col p-0 ">
+      <div className="card-body bg-secondary text-white text-center ">
         <h5 className="card-title text-black-50 text-center">About</h5>
         <ul className="list-group ">
-          <li id='hover' className="list-group-item bg-dark text-white text-center ">
+          <li id='hover' className="list-group-item bg-secondary text-white text-center ">
             Contact Us
           </li>
-          <li id='hover' className="list-group-item bg-dark text-white text-center ">
+          <li id='hover' className="list-group-item bg-secondary text-white text-center ">
             About Us
           </li>
-          <li id='hover' className="list-group-item bg-dark text-white text-center">
+          <li id='hover' className="list-group-item bg-secondary text-white text-center">
             Our Stories
           </li>
         </ul>
@@ -24,17 +24,17 @@ const Footer = () => {
         <i className="fa fa-book" aria-hidden="true"></i>
       </div>
     </div>
-    <div className="card">
-      <div className="card-body bg-dark text-white text-center ">
+    <div className="col p-0">
+      <div className="card-body bg-secondary text-white text-center ">
         <h5 className="card-title text-black-50 text-center ">Help</h5>
         <ul className="list-group">
-          <li id='hover' className="list-group-item bg-dark text-white text-center">
+          <li id='hover' className="list-group-item bg-secondary text-white text-center">
             Payment
           </li>
-          <li id='hover' className="list-group-item bg-dark text-white text-center">
+          <li id='hover' className="list-group-item bg-secondary text-white text-center">
             Shipping
           </li>
-          <li id='hover' className="list-group-item bg-dark text-white text-center">
+          <li id='hover' className="list-group-item bg-secondary text-white text-center">
             Cancellation & Return
           </li>
         </ul>
@@ -44,17 +44,17 @@ const Footer = () => {
         <i className="fa fa-reply" aria-hidden="true"></i>
       </div>
     </div>
-    <div className="card">
-      <div className="card-body bg-dark text-white text-center">
+    <div className="col p-0">
+      <div className="card-body bg-secondary text-white text-center">
         <h5 className="card-title text-black-50 text-center ">Social</h5>
         <ul className="list-group">
-          <li id='hover' className="list-group-item bg-dark text-white text-center">
+          <li id='hover' className="list-group-item bg-secondary text-white text-center">
             Instagram
           </li>
-          <li id='hover' className="list-group-item bg-dark text-white text-center">
+          <li id='hover' className="list-group-item bg-secondary text-white text-center">
             Twiter
           </li>
-          <li id='hover' className="list-group-item bg-dark text-white text-center">
+          <li id='hover' className="list-group-item bg-secondary text-white text-center">
             Facebook
           </li>
         </ul>

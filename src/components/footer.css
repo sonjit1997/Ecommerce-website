@@ -1,4 +1,9 @@
 #hover:hover{
-   font-size: large;
    text-decoration: underline;
+}
+#row{
+   width: 205vh;
+}
+.list-group-item{
+   border: none;
 }

@@ -18,7 +18,7 @@ function Login() {
             className="card-img"
             src="https://img.freepik.com/free-photo/model-being-covered-by-shopping-bags-copy-space_23-2148674119.jpg?w=2000"
             alt="Home page background"
-            height={"700 px"}
+            height={"772 px"}
           />
           <div className="card-img-overlay d-flex flex-column justify-content-center">
             <div className="container">
