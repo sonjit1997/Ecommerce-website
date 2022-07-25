@@ -38,7 +38,7 @@ const Footer = () => {
             Cancellation & Return
           </li>
         </ul>
-        <hr />
+        <hr/>
         <i className="fa fa-credit-card-alt me-2" aria-hidden="true"></i> 
         <i className="fa fa-truck me-2" aria-hidden="true"></i>
         <i className="fa fa-reply" aria-hidden="true"></i>

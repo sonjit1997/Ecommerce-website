@@ -3,6 +3,7 @@ import Products from "./Products";
 import Footer from "../components/Footer";
 
 function Home() {
+ 
   return (
     <>
       <Navbar />

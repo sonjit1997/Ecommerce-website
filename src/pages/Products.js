@@ -8,9 +8,9 @@ export default function Products() {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    const getProducts = () => {
+    const getProducts = async () => {
       setLoading(true);
-      fetch("https://fakestoreapi.com/products")
+   await fetch("https://fakestoreapi.com/products")
         .then((response) => response.json())
         .then((data) => setProducts(data));
       setLoading(false);
@@ -104,7 +104,7 @@ export default function Products() {
                     </h5>
                     <p className="card-text fw-bolder lead">${product.price}</p>
                     <Link
-                      to={`/Home/${product.id}`}
+                      to={`/detail/${product.id}`}
                       className="btn btn-warning"
                     >
                       Buy Now

@@ -10,9 +10,9 @@ export default function Productsall () {
     const [loading, setLoading] = useState(false);
 
     useEffect(()=>{
-        const getProducts = () => {
+        const getProducts = async () => {
             setLoading(true);
-            fetch("https://fakestoreapi.com/products")
+          await fetch("https://fakestoreapi.com/products")
               .then((response) => response.json())
               .then((data) => setProducts(data));
             setLoading(false);
@@ -51,7 +51,7 @@ export default function Productsall () {
                         </h5>
                         <p className="card-text fw-bolder lead">${product.price}</p>
                         <Link
-                          to={`/Home/${product.id}`}
+                          to={`/detail/${product.id}`}
                           className="btn btn-warning"
                         >
                           Buy Now
@@ -76,10 +76,10 @@ export default function Productsall () {
           <h1 className="display-6 fw-bolder text-center text-upercase text-secondary">
             "ALL LATEST PRODUCT ARE HERE"
           </h1>
-          <hr />
+         
         </div>
       </div>
-      <div className="row justify-content-center">
+      <div className="row justify-content-center mt-4">
         {loading ? <Loading /> : <ShowProducts />}
       </div>
     </div>

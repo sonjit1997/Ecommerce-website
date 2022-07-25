@@ -9,12 +9,13 @@ function Navbar(){
 
   
     return(
-      <nav className="navbar navbar-expand-lg navbar-light bg-success p-1">
+      < div className="row d-flex" id="roww">
+      <nav className="navbar navbar-expand-lg  bg-success p-1" id=" navbar">
   <div className="container-fluid">
   <div>
     <Link  className="navbar-brand fw-bolder " to={"/"} id='brand'>Shop&Fly...</Link >
   </div>
-    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+    <div className=" navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav mx-auto ">
         <form className="d-flex " role="search" >
         <input className="form-control text-danger"  type="search" placeholder="Search What are u looking for..." aria-label="Search" id="searchbox"/>
@@ -34,6 +35,7 @@ function Navbar(){
     </div>
   </div>
 </nav>
+   </div>
     )
 }
 
